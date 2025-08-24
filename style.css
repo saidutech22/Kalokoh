@@ -1,0 +1,151 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-size: 14px;
+    padding: 10px;
+}
+.logo{
+    background: rgb(12, 12, 45);
+}
+.container{
+    color: goldenrod;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5em;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 10px;
+}
+ ul,li,a,nav{
+    color: white;
+    text-decoration: none;
+}
+nav,ul,li{
+    display: inline;
+    margin-right: 15px;
+}
+.header{
+    text-align: center;
+    font-size: 14px;
+    background: gold;
+}
+.book{
+    max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+}
+.book{
+ align-items: center;
+ justify-items: center;
+ display: flex;
+ margin: 0 auto;
+ padding: 40px 0;
+ }
+.cook{
+    color: gold;
+    text-align: center;
+    font-size: 14px;
+    background: rgb(10, 10, 34);
+    
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#high{
+    color: blue;
+    
+    padding: 40px 0;
+    text-align: center;
+    font-size: 14px;
+}
+#hero{
+    background: rgb(12, 12, 47);
+    color: goldenrod;
+    font-size: 14px;
+    text-align: center;
+    padding: 60px 20px;
+}
+.step{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    animation: slideIn 5s linear infinite;
+    opacity: 0;
+}
+@keyframes slideIn{
+from{
+    transform: translateX(-100%);
+    opacity: 0;
+}
+to{
+    transform: translateX(0);
+    opacity: 1;
+}
+}
+.guide{
+    color: rgb(22, 22, 58);
+    font-size: 14px;
+}
+footer{
+    background: rgb(18, 18, 41);
+    color: white;
+    text-align: left;
+    font-size: 14px;
+    margin: auto;
+    border-style: solid;
+    border-color: goldenrod;
+    border-width: 20px;
+    padding: 20px;
+  
+    
+    height: auto;
+    animation: SlideIn 5s linear infinite;
+}
+#hit{
+    color: blue;
+    font-size: 14px;
+}
+input{
+    font-size: 14px;
+}
+textarea{
+    font-size: 14px;
+            max-width: 100%;
+            padding: 40px 0;
+            border-radius: 8px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.kook{
+    font-size: 14px;
+
+}
+@media (max-width: 600px) {
+    h1 {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    body {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+.moon{
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    background: rgb(11, 11, 30);
+}
+.pook{
+    font-size: 14px;
+}
